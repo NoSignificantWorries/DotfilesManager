@@ -14,5 +14,6 @@
     "get_installed": ["paru", "-Qqe"],
     "clear_cache": ["sudo", "paru", "-Scc"],
     "clear_hanging": ["sudo", "paru", "-Rns", "$(paru", "-Qdtq)"]
-  }
+  },
+  "default": "main"
 }

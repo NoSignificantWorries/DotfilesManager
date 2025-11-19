@@ -1,54 +1,11 @@
-import json
 import sys
 import subprocess
 import configparser
 from typing import Optional
-from pathlib import Path
 
 
-class Colors:
-    RED = '\033[91m'
-    GREEN = '\033[92m'
-    YELLOW = '\033[93m'
-    BLUE = '\033[94m'
-    RESET = '\033[0m'
 
 
-class Log:
-    DEBUG = (0, f"{Colors.GREEN}[DEBUG]{Colors.RESET}")
-    INFO = (1, f"{Colors.BLUE}[INFO]{Colors.RESET}")
-    WARN = (2, f"{Colors.YELLOW}[WARN]{Colors.RESET}")
-    ERROR = (3, f"{Colors.RED}[ERROR]{Colors.RESET}")
-    level = 0
-
-
-def logging(msg: str, log: tuple[int, str]) -> None:
-    log_level, log_marker = log
-    if log_level >= Log.level:
-        print(f"{log_marker}: {msg}", file=sys.stderr)
-
-
-def pth(path: str) -> Optional[Path]:
-    p = Path(path).expanduser().absolute()
-
-    logging(f"Received path {path} -> {p}", Log.DEBUG)
-
-    if not p.exists():
-        raise FileNotFoundError("Path is not exists")
-    return p
-
-
-def load_python_config(configpath: str) -> dict[str, list[str]] | dict[str, dict[str, list[str]]]:
-    configpath_obj = pth(configpath)
-
-    if not configpath_obj.is_file():
-        raise FileNotFoundError(f"Path {configpath_obj} is not a file")
-
-    with open(str(configpath_obj), "r") as file:
-        logging(f"Trying load config file {configpath_obj}...", Log.INFO)
-        data = json.load(file)
-
-    return data
 
 
 def get_installed_packages(command: list[str]) -> list[str]:
@@ -57,7 +14,7 @@ def get_installed_packages(command: list[str]) -> list[str]:
     return packages
 
 
-def parse_packages_file(filepath: str) -> Optional[dict[str, dict[str, list[str] | None]]]:
+def parse_packages_file(filepath: str, config: dict) -> Optional[dict[str, dict[str, list[str] | None]]]:
     filepath_obj = pth(filepath)
 
     if not filepath_obj.is_file():
@@ -78,6 +35,11 @@ def parse_packages_file(filepath: str) -> Optional[dict[str, dict[str, list[str]
         return None
 
     result = {}
+
+    if "settings" in parser.sections():
+        pass
+    else:
+        logging(f"Can't found 'settings' section in the file {filepath_obj}. Using default: '{config["default"]}'", Log.WARN)
 
     for section in parser.sections():
         install = None
@@ -172,7 +134,7 @@ def main() -> int:
     # print(get_installed_packages(config.base.get_installed))
 
     try:
-        packages = parse_packages_file("~/Manager/example/packages.base.ini")
+        packages = parse_packages_file("~/Manager/example/packages/base.ini", config_table)
         print(packages)
     except Exception as err:
         logging(str(err), Log.ERROR)
