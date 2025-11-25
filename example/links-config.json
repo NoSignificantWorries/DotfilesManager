@@ -1,0 +1,12 @@
+{
+  "ignore-hidden": true,
+  "ignore-dirs": false,
+  "ignore-files": false,
+  "ignore-files": [".dotignore"],
+  "always-ignore": ["__pycache__", "*README*", "*LICENSE*"],
+  "subdir": ".links",
+  "associations": {
+    "example": ".example",
+    "res.json": ".res.json"
+  }
+}

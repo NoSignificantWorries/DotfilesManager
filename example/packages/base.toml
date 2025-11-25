@@ -1,0 +1,19 @@
+[settings]
+provider = "main"
+
+[sys]
+install = [
+  "curl",
+  "wget",
+  "unzip",
+]
+
+[de]
+install = [
+  "niri",
+  "swaync",
+]
+commands = [
+  "some sommand"
+]
+

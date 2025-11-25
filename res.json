@@ -1,0 +1,362 @@
+[
+  {
+    "from": "/home/dmitry/Hyprdots_main/icons/desktop/matplotlib-icon.svg",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/icons/desktop/gitlab-icon.svg",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/icons/desktop/github-icon.svg",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/icons/desktop/google-classroom-icon.svg",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/icons/desktop/deepseek-logo-icon.svg",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/icons/desktop/perplexity-ai-icon.svg",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/icons/notify/wifi-notify.png",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/icons/notify/critical-battery.png",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/icons/notify/bluetooth-notify.png",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/icons/notify/recording.png",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/icons/notify/low-battery.png",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/user/maibenben/packages/base.ini",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/user/maibenben/packages/others",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/user/maibenben/packages/main.ini",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/user/main/packages.jsonc",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/bottom/bottom.toml",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/neofetch/config.conf",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/wlogout/icons/suspend_white.png",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/wlogout/icons/reboot_black.png",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/wlogout/icons/logout_white.png",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/wlogout/icons/shutdown_white.png",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/wlogout/icons/hibernate_black.png",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/wlogout/icons/shutdown_black.png",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/wlogout/icons/logout_black.png",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/wlogout/icons/hibernate_white.png",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/wlogout/icons/lock_white.png",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/wlogout/icons/suspend_black.png",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/wlogout/icons/lock_black.png",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/wlogout/icons/reboot_white.png",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/wlogout/layout",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/wlogout/style.css",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/wlogout/theme.css",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/wlogout/logout_menu.sh",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/waybar/config.jsonc",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/waybar/modules.jsonc",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/waybar/reload.sh",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/waybar/style.css",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/waybar/catppuccin_mocha.css",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/waybar/toggle_waybar.sh",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/waybar/statistics.css",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/starship.toml",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/aseprite/mocha.aseprite-extension",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/jupyter/jupyter_notebook_config.py",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/zsh/zsh-bindings",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/zsh/zsh-functions",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/zsh/zsh-aliases",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/nushell/config.nu",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/nushell/env.nu",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/nushell/catppuccin.nu",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/lsd/colors.yaml",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/lsd/config.yaml",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/niri/change_wallpaper.sh",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/niri/config.kdl",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/kitty/kitty.conf",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/kitty/theme.conf",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/yazi/theme.toml",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/yazi/install_plugins.sh",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/yazi/keymap.toml",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/yazi/package.toml",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/yazi/init.lua",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/yazi/yazi.toml",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/btop/themes/catppuccin_mocha.theme",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/btop/btop.conf",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/Kvantum/kvantum.kvconfig",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/Kvantum/catppuccin-mocha-mauve/catppuccin-mocha-mauve.svg",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/Kvantum/catppuccin-mocha-mauve/catppuccin-mocha-mauve.kvconfig",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/zathura/zathurarc",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/zathura/catppuccin-mocha",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/p10k.zsh",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/mpv/mpv.conf",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/mimeapps.list",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/swaync/style.css",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/swaync/config.json",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/zshrc",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/atuin/themes/catppuccin-mocha-green.toml",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/atuin/themes/catppuccin-mocha-lavender.toml",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/atuin/config.toml",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/atuin/atuin-receipt.json",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/rofi/themes/catppuccin-mocha.rasi",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/rofi/menu/menu.rasi",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/rofi/menu/launch.sh",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/config/tmux.conf",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/scripts/battery_allert.sh",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/scripts/network/toggle_wifi.sh",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/scripts/fzf_preview.sh",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/scripts/clipboard.sh",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/scripts/bluetooth/toggle_bluetooth.sh",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/src/install.py",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/src/dotmanager.py",
+    "to": ""
+  },
+  {
+    "from": "/home/dmitry/Hyprdots_main/src/create_symlinks.py",
+    "to": ""
+  }
+]
