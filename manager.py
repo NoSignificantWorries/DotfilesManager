@@ -82,7 +82,11 @@ def open_and_parse_text(*, path: str | Path, handler: dict, ignore: Optional[str
 @open_path_handler
 def parse_dirs_recursive(*, path: str | Path, config: dict) -> list[dict[str, str]]:
     links = []
-    for file in path.iterdir():
+    dirs_in = list(path.iterdir())
+    if not dirs_in:
+        return links
+
+    for file in dirs_in:
         if match_patterns(string=file.name, patterns=ALWAYS_IGNORE):
             continue
         if file.name.startswith("."):
